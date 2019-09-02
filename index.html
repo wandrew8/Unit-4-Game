@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Domine|Passion+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+<div class="loader">
+    <div class="page-title">
+        <h1 class="counted">Crystal Collector</h1>
+        <h2 class="Loading"></h2>
+    </div>
+</div>
+
+    <Header>
+        <h1>Crystal Collector</h1>
+    </Header>
+
+    <main>
+        <div class="container rules">
+            <div class="row">
+                <p><strong>Rules: </strong>You will be given a random number at the start of the game.
+                    There are four crystals below. By clicking on a crystal you will add a specific amount of points to
+                    your total score.You win the game by matching your total score to the random number. You lose the
+                    game if your total
+                    score goes above the random number.</p>
+            </div>
+        </div>
+        <hr>
+
+        <div class="container main-container">
+            <div class="row">
+                <div class="crystal"></div>                
+            </div>
+            <div class="row">
+                <div class="col-md-2 column">
+                    <h3>Wins</h3>
+                    <div><span id="wins">_</span></div>
+                </div>
+                <div class="col-md-2 column">
+                    <h3>Losses</h3>
+                    <div><span id="losses">_</span></div>
+                </div>
+                <div class="col-md-4 column">
+                    <h3>How much you have:</h3>
+                    <div><span id="userNumber">_</span></div>
+                </div>
+                <div class="col-md-4 column">
+                    <h3>Match this number:</h3>
+                    <div><span id="computerNumber">_</span></div>
+                </div>
+            </div>
+        </div>
+        <audio id="coin">
+            <source src="assets/images/coin.mp3">
+        </audio>
+        <audio id="winning">
+            <source src="assets/images/winning.mp3">
+        </audio>
+        <audio id="losing">
+            <source src="assets/images/lose game sound effect.mp3">
+        </audio>
+    </main>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

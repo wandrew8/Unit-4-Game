@@ -1,1 +1,2 @@
 # Unit-4-Game
+Here is a game called Crystal Collector that I wrote for my full-stack web development coding bootcamp. I had a hard time getting my javascript code working properly and it required many reworks before I got it right. I couldn't figure out how to get four different crystal pictures to work the way I wanted. I had a lot of fun styling the page with CSS and I was able to integrate a few new techniques I learned via youtube. Send me an eamil at wandrew8@gmail.com for any suggestions or questions. 

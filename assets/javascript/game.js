@@ -46,9 +46,8 @@ var resetGame = function () {
         crystals.attr({
             'class': 'crystals',
             'data-crystal-value': crystalNumber,
-            'src': "https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Jewelry-and-Diamonds-PNG/Sky_Blue_Gem_PNG_Clip_Art_Image.png?m=1466391301"
+            'src': "./assets/images/blue.png"
         });
-        // 'src': "../images/blue.png"
 
         $('.crystal').append(crystals);
 
